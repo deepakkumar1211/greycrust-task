@@ -123,8 +123,8 @@ import "./Pricing.css";
 const Pricing = () => {
     const plans = [
         { name: "Basic Plan", price: "$100" },
-        { name: "Standard Plan", price: "$200" },
-        { name: "Premium Plan", price: "$300" },
+        { name: "Best Value", price: "$150" },
+        { name: "Exclusive", price: "$250" },   
     ];
 
     return (

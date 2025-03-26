@@ -1,0 +1,96 @@
+.hero {
+    margin-bottom: 100px;
+}
+
+.hero-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.hero-sec-2 {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 34px;
+    align-items: center;
+}
+
+.hero-sec2-1 h1 {
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    word-spacing: 20px;
+}
+
+.hero-sec2-1 p {
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    line-height: 35px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+
+.learn-more-btn {
+    background-color: #63806d;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.hero-sec2-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.hero-sec2-2 div img {
+    width: 15rem;
+    padding: 12px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-sec-2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-sec2-1 h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-sec2-1 p {
+        font-size: 0.8rem;
+        line-height: 30px;
+    }
+
+    .learn-more-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .hero-sec2-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-sec2-2 div img {
+        width: 16rem;
+        padding: 8px;
+    }
+}
